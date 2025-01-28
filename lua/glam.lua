@@ -24,6 +24,7 @@ end
 
 M.link = function(groupa, groupb)
     vim.cmd(string.format("highlight link %s %s", groupa, groupb))
+end
 
 M.colors = {
     red = "#FF4D75",
